@@ -1,0 +1,26 @@
+Package: STROMA4
+Version: 0.99.12
+Date: 2017-03-23
+Title: Assign Properties to TNBC Patients
+Authors@R: c(person("Sadiq", "Saleh", email =
+        "sadiq.mehdiismailsaleh@mail.mcgill.ca", role = c("aut",
+        "cre")), person("Michael", "Hallett", email =
+        "michael.t.hallett@mcgill.ca ", role = "aut"))
+Description: This package estimates four stromal properties identified
+        in TNBC patients in each patient of a gene expression datasets.
+        These stromal property assignments can be combined to subtype
+        patients. These four stromal properties were identified in
+        Triple negative breast cancer (TNBC) patients and represent the
+        presence of different cells in the stroma: T-cells (T), B-cells
+        (B), stromal infiltrating epithelial cells (E), and desmoplasia
+        (D). Additionally this package can also be used to estimate
+        generative properties for the Lehmann subtypes, an alternative
+        TNBC subtyping scheme (PMID: 21633166).
+Depends: R (>= 3.4), Biobase, BiocParallel, cluster, matrixStats,
+        stats, graphics, utils
+License: GPL-3
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: breastCancerMAINZ
+biocViews: GeneExpression, BiomedicalInformatics, Classification,
+        Microarray, RNASeq, Software
