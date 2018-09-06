@@ -44,7 +44,7 @@ First we will load the STROMA4 package.
 <<verbose=FALSE, results=hide>>=
 if (!requireNamespace("BiocManager", quietly=TRUE))
     install.packages("BiocManager")
-#biocLite("STROMA4")
+#BiocManager::install("STROMA4")
 library("STROMA4")
 @
 

@@ -1,5 +1,5 @@
 Package: STROMA4
-Version: 1.5.1
+Version: 1.5.2
 Date: 2017-03-23
 Title: Assign Properties to TNBC Patients
 Authors@R: c(person("Sadiq", "Saleh", email =
