@@ -1,5 +1,5 @@
 Package: STROMA4
-Version: 1.27.0
+Version: 1.27.1
 Date: 2017-03-23
 Title: Assign Properties to TNBC Patients
 Authors@R: c(person("Sadiq", "Saleh", email =
@@ -24,3 +24,4 @@ RoxygenNote: 5.0.1
 Suggests: breastCancerMAINZ
 biocViews: ImmunoOncology, GeneExpression, BiomedicalInformatics, Classification,
         Microarray, RNASeq, Software
+PackageStatus: Deprecated
